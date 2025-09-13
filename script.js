@@ -33,9 +33,17 @@ function playRandomSound() {
         document.getElementById('sound6'),
         document.getElementById('sound7'),
         document.getElementById('sound8'),
-        document.getElementById('sound9')
+        document.getElementById('sound9'),
+        document.getElementById('sound10'),
+        document.getElementById('sound11'),
+        document.getElementById('sound12'),
+        document.getElementById('sound13'),
+        document.getElementById('sound14'),
+        document.getElementById('sound15'),
+        document.getElementById('sound16')
     ];
     const randomSound = sounds[Math.floor(Math.random() * sounds.length)];
     randomSound.play();
 }
+
 
